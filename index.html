@@ -3,7 +3,6 @@
 
 <head>
     <title>HXCO Get</title>
-
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="elements/style.css" rel="stylesheet">
@@ -17,13 +16,18 @@
                 </div>
             </div>
             <p class="normal">Made with&nbsp;
-                <i class="material-icons normal">favorite</i>&nbsp;by&nbsp;Huangxin.</p>
+                <i class="material-icons normal heart">favorite</i>&nbsp;by&nbsp;Huangxin.</p>
         </div>
     </div>
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.7/typed.min.js"></script>
 <script src="elements/words.js"></script>
+<script>
+        if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
+        window.location.href = "mobile.html";
+    };
+</script>
 
 
 </html>

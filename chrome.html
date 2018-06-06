@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Get Chrome</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.1/spectre.min.css" rel="stylesheet">
+    <link href="elements/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="title">Getting Chrome
+                <p class="details">Your download should begin automatically. If it doesn’t,
+                    <a href="http://outdatedbrowser.com/zh-cn" target="_blank">upgrade your browser.</a>
+                </p>
+                <p class="details">Thanks for using
+                    <a href="index.html" target="_blank">HXCO Get</a>.</p>
+                <div class="column">
+                    <a href="#qrco" class="btn btn-primary">Get Mobile Apps</a>
+                    <div class="modal" id="qrco">
+                        <a href="#" class="modal-overlay" aria-label="Close"></a>
+                        <div class="modal-container" role="document">
+                            <div class="modal-header">
+                                <a href="#" class="btn btn-clear float-right" aria-label="Close"></a>
+                                <div class="modal-title h5">
+                                    <i class="material-icons">devices</i> Scan QR Code</div>
+                            </div>
+                            <div class="modal-body">
+                                <div class="content">
+                                    <div id="currentqrcode"></div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary">Share</button>
+                                <a href="#modals" class="btn btn-link">Close</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <p class="normal">Made with&nbsp;
+            <i class="material-icons normal heart">favorite</i>&nbsp;by&nbsp;Huangxin.</p>
+    </div>
+    </div>
+
+</body>
+
+<!-- <script>
+    if (/(x64)/i.test(navigator.userAgent)) {
+        window.location.href = "https://dl.google.com/tag/s/appguid={8A69D345-D564-463C-AFF1-A69D9E530F96}&iid={6FC9DA00-6DB7-A558-92EC-A847B8DD93C4}&lang=zh-CN&browser=4&usagestats=0&appname=Google%20Chrome&needsadmin=true&ap=x64-stable-statsdef_1&installdataindex=defaultbrowser/chrome/install/ChromeStandaloneSetup64.exe";
+    }
+    if (/(WOW64)/i.test(navigator.userAgent)) {
+        window.location.href = "https://dl.google.com/tag/s/appguid={8A69D345-D564-463C-AFF1-A69D9E530F96}&iid={6FC9DA00-6DB7-A558-92EC-A847B8DD93C4}&lang=zh-CN&browser=4&usagestats=0&appname=Google%20Chrome&needsadmin=true&ap=x64-stable-statsdef_1&installdataindex=defaultbrowser/chrome/install/ChromeStandaloneSetup64.exe";
+    }
+    if (/(Macintosh)/i.test(navigator.userAgent)) {
+        window.location.href = "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg";
+    }
+    if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+        window.location.href = "https://itunes.apple.com/app/apple-store/id535886823";
+    }
+    if (/(Android)/i.test(navigator.userAgent)) {
+        window.location.href = "http://openbox.mobilem.360.cn/index/d/sid/21104";
+    };
+</script> -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js'></script>
+<script>//jQuery('#qrcode').qrcode("this plugin is great");
+    jQuery('#currentqrcode').qrcode({
+        render: "table",
+        text: window.location.href
+    });	
+</script>
+
+</html>
