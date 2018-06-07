@@ -1,3 +1,9 @@
+@import url(https://cdnjs.loli.net/ajax/libs/spectre.css/0.5.1/spectre.min.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(https://cdnjs.loli.net/ajax/libs/normalize/8.0.0/normalize.min.css);
+
+
 html,
 body {
     height: 100%;
@@ -32,6 +38,7 @@ body {
 
 .normal {
     font-size: 16px;
+    text-align: center;
 }
 
 .words {
@@ -75,13 +82,10 @@ body {
     line-height: 25%;
 }
 
-.section-footer {
-    color: #acb3c2;
-    padding: 1.8rem .75rem 1rem .75rem;
-    position: relative;
-    z-index: 200;
-  }
-  
-  .section-footer a {
-    color: #667189;
-  }
+.footer {
+    bottom: 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    font-size: 18px
+}

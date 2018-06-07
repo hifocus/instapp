@@ -1,7 +1,7 @@
 var options = {
     strings: ["chrome", "firefox", "vscode", "steam", "anything"],
     typeSpeed: 60,
-    startDelay: 1200,
+    startDelay: 0,
 		// backspacing speed
 		backSpeed: 20,
 		// time before backspacing
