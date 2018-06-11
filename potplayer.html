@@ -30,7 +30,7 @@
                         <div class="modal-header">
                             <a href="#" class="btn btn-clear float-right" aria-label="Close"></a>
                             <div class="modal-title h5">
-                                <i class="material-icons">devices</i> Scan QR Code</div>
+                                <i class="material-icons">devices</i> Scan&nbsp;QR&nbsp;Code</div>
                         </div>
                         <div class="modal-body">
                             <div class="content">
@@ -61,10 +61,10 @@
 <!-- Identify UA then redirect -->
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
-        window.location("http://get.daum.net/PotPlayer64/Version/Latest/PotPlayerSetup64.exe");
+        window.location.href = ("http://get.daum.net/PotPlayer64/Version/Latest/PotPlayerSetup64.exe");
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {
-        window.location("http://get.daum.net/PotPlayer/Version/Latest/PotPlayerSetup.exe");
+        window.location.href = ("http://get.daum.net/PotPlayer/Version/Latest/PotPlayerSetup.exe");
     }
     if (/(Macintosh)/i.test(navigator.userAgent)) {
         alert("Sorry, your platform is not currently supported with this app.");
