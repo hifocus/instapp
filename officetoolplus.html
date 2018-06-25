@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Get Office Tool Plus</title>
+    <link href="elements/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="footer">
+        <p class="footer normal">Thanks&nbsp;for&nbsp;using&nbsp;
+            <a href="index.html" target="_blank">HXCO Get</a>.&nbsp;Made&nbsp;with
+            <i class="material-icons heart">favorite</i>&nbsp;by&nbsp;Huangxin.</p>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="title">Getting&nbsp;Office&nbsp;Tool&nbsp;Plus...
+                <p></p>
+            </div>
+            <!-- Old browser tutorial -->
+            <p class="details">Your&nbsp;download&nbsp;should&nbsp;begin&nbsp;automatically.&nbsp;If&nbsp;it&nbsp;doesn't,
+                <a href="http://outdatedbrowser.com/zh-cn" target="_blank">upgrade&nbsp;your&nbsp;browser.</a>
+            </p>
+            <div class="details">
+                <!-- QR Code Button -->
+                <a href="#qrco" class="btn btn-primary">Get&nbsp;Mobile&nbsp;Apps</a>
+                <div class="modal" id="qrco">
+                    <a href="#" class="modal-overlay" aria-label="Close"></a>
+                    <div class="modal-container" role="document">
+                        <div class="modal-header">
+                            <a href="#" class="btn btn-clear float-right" aria-label="Close"></a>
+                            <div class="modal-title h5">
+                                <i class="material-icons">devices</i> Scan&nbsp;QR&nbsp;Code</div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="content">
+                                <div id="currentqrcode" class="qrcode"></div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn btn-primary">Got&nbsp;it</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111752336-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111752336-5');
+</script>
+
+<!-- JQ.Generate QR Code -->
+<script src='https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.loli.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js'></script>
+<script>
+    jQuery('#currentqrcode').qrcode({
+        render: "table",
+        text: window.location.href
+    });	
+</script>
+
+<!-- Identify UA then redirect -->
+<script>
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+        window.location.href = "https://server.lancdn.com/landian/OfficeToolPlus/OTool.zip";
+    }
+    if (/(x86_64)/i.test(navigator.userAgent)) {
+        window.location.href = "https://server.lancdn.com/landian/OfficeToolPlus/OTool.zip";
+    }
+    if (/(Macintosh)/i.test(navigator.userAgent)) {
+        alert("This app does not work on your device.");
+    }
+    if (/(iPhone|iPod)/i.test(navigator.userAgent)) {
+        alert("This app does not work on your device.");
+        }
+    if (/(iPad)/i.test(navigator.userAgent)) {
+        alert("This app does not work on your device.");
+    }
+    if (/(Android)/i.test(navigator.userAgent)) {
+        alert("This app does not work on your device.");
+    }
+</script>
+
+</html>
