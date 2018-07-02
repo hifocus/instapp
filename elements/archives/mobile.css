@@ -1,0 +1,55 @@
+@import 'https://fonts.loli.net/css?family=Titillium+Web:400,700';
+@import 'https://fonts.loli.net/icon?family=Material+Icons';
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 100px;
+    color: #515151;
+}
+
+.normal {
+    font-size: 50px;
+}
+
+.words {
+    font-size: 70px;
+}
+
+.normal .material-icons{
+    color: red;
+    vertical-align: middle;
+}
+
+.words .https{
+    color: green;
+}
+
+.words .result{
+    color: #0bf
+}
