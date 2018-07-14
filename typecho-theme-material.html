@@ -71,42 +71,10 @@
 
 <!-- Identify UA then redirect -->
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         const repo = "https://api.github.com/repos/idawnlight/typecho-theme-material/releases/latest";
         $.getJSON(repo).done(function (data) {
-            window.location = (data.assets[0].browser_download_url);
+            window.location = "https://onedrive.idawnlight.com/Material/Material-" + (data.tag_name) + ".zip";
         })
-    }
-    if (/(x86_64)/i.test(navigator.userAgent)) {
-        const repo = "https://api.github.com/repos/idawnlight/typecho-theme-material/releases/latest";
-        $.getJSON(repo).done(function (data) {
-            window.location = (data.assets[0].browser_download_url);
-        })
-    }
-    if (/(Macintosh)/i.test(navigator.userAgent)) {
-        const repo = "https://api.github.com/repos/idawnlight/typecho-theme-material/releases/latest";
-        $.getJSON(repo).done(function (data) {
-            window.location = (data.assets[0].browser_download_url);
-        })
-    }
-    if (/(iPhone|iPod)/i.test(navigator.userAgent)) {
-        const repo = "https://api.github.com/repos/idawnlight/typecho-theme-material/releases/latest";
-        $.getJSON(repo).done(function (data) {
-            window.location = (data.assets[0].browser_download_url);
-        })
-    }
-    if (/(iPad)/i.test(navigator.userAgent)) {
-        const repo = "https://api.github.com/repos/idawnlight/typecho-theme-material/releases/latest";
-        $.getJSON(repo).done(function (data) {
-            window.location = (data.assets[0].browser_download_url);
-        })
-    }
-    if (/(Android)/i.test(navigator.userAgent)) {
-        const repo = "https://api.github.com/repos/idawnlight/typecho-theme-material/releases/latest";
-        $.getJSON(repo).done(function (data) {
-            window.location = (data.assets[0].browser_download_url);
-        })
-    };
 </script>
 
 </html>
