@@ -1,0 +1,9 @@
+<!-- JQ.Generate QR Code -->
+<script src='https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.loli.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js'></script>
+<script>
+    jQuery('#currentqrcode').qrcode({
+        render: "table",
+        text: window.location.href
+    });	
+</script>

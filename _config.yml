@@ -1,0 +1,11 @@
+title: HXCO Get
+
+permalink: /:title
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "posts"

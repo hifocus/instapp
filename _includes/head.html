@@ -1,0 +1,25 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="dns-prefetch" href="https://cdnjs.loli.net">
+    <link rel="dns-prefetch" href="https://fonts.loli.net">
+    <link rel="dns-prefetch" href="https://gstatic.loli.net">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://get.js.org">
+    <link rel="dns-prefetch" href="https://tech.hxco.de">
+    
+    <link href="{{ "/elements/style.min.css" | relative_url }}" rel="preload" as="style">
+    <link href="{{ "/elements/style.min.css" | relative_url }}" rel="stylesheet">
+    <title>
+        {% if page.title %}
+            Get 
+            {% if page.displayTitle %}
+            {{ page.displayTitle }}
+            {% else %}
+            {{ page.title }}
+            {% endif %}
+        {% else %}
+            {{ site.title }}
+        {% endif %}
+    </title>
+</head>
