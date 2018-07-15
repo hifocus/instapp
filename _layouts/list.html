@@ -6,12 +6,19 @@ layout: default
 <div class="container">
     <div class="content">
         <div class="title">HXCO Get</div>
-        {% for post in site.posts %}
+        <div class="list-container" style="max-width: 800px;">
+        {% assign sortedPosts = site.posts | sort: 'title' %}
+        {% for post in sortedPosts %}
+            {% if post.disableList != true %}
             <span class="chip">
                 <a target="_blank" href="{{post.url}}">
-                {{ post.title }}</a>
+                    {{ post.title }}
+                </a>
             </span>
+            {% endif %}
         {% endfor %}
+        </div>
+
     </div>
 </div>
 <!-- Mobile redirect -->
