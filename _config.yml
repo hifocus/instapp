@@ -2,6 +2,13 @@ title: HXCO Get
 
 permalink: /:title
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+
 defaults:
   -
     scope:
