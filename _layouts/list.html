@@ -1,0 +1,22 @@
+--- 
+layout: default 
+---
+<p class="normal footer">Made with
+    <i class="material-icons normal heart">favorite</i>&nbsp;by&nbsp;Huangxin</a>.</p>
+<div class="container">
+    <div class="content">
+        <div class="title">HXCO Get</div>
+        {% for post in site.posts %}
+            <span class="chip">
+                <a target="_blank" href="{{post.url}}">
+                {{ post.title }}</a>
+            </span>
+        {% endfor %}
+    </div>
+</div>
+<!-- Mobile redirect -->
+<script>
+    if (/(iPhone|iPod|Android)/i.test(navigator.userAgent)) {
+        window.location.href = "https://github.com/hxco/Get";
+    };
+</script>
