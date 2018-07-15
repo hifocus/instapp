@@ -9,13 +9,14 @@ layout: default
         <div class="list-container" style="max-width: 800px;">
         {% assign sortedPosts = site.posts | sort: 'title' %}
         {% for post in sortedPosts %}
-            {% if post.disableList != true %}
+            {% unless post.disableList or post.layout == 'goto' %}
             <span class="chip">
                 <a target="_blank" href="{{post.url}}">
-                    {{ post.title }}
+                    {% if post.displayTitle %}{{ post.displayTitle }} {%else%}{{ post.title }}{% endif %}
+                    
                 </a>
             </span>
-            {% endif %}
+            {% endunless %}
         {% endfor %}
         </div>
     </div>
