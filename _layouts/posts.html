@@ -1,0 +1,49 @@
+--- 
+layout: default 
+---
+
+<div class="footer">
+    <p class="footer">Thanks for using 
+        <a href="https://github.com/hxco/Get" target="_blank">HXCO Get</a>. 
+        <a href="https://tech.hxco.de/announcement/hxco-get.html" target="_blank">Made with
+            <i class="material-icons normal heart">favorite</i> by Huangxin</a>.</p>
+</div>
+<div class="container">
+    <div class="content">
+        <div class="title">Getting
+            {% if page.displayTitle %}
+                {{ page.displayTitle }}...
+            {% else %}
+                {{ page.title }}...
+            {% endif %}
+        </div>
+        <!-- Old browser tutorial -->
+        <p class="details">Your download should begin automatically. If it doesn't,
+            <a href="http://outdatedbrowser.com/zh-cn" target="_blank">upgrade your browser.</a>
+        </p>
+        <div class="details">
+            <!-- QR Code Button -->
+            <a href="#qrco" class="btn btn-primary">Get Mobile Apps</a>
+            <div class="modal" id="qrco">
+                <a href="#" class="modal-overlay" aria-label="Close"></a>
+                <div class="modal-container" role="document">
+                    <div class="modal-header">
+                        <a href="#" class="btn btn-clear float-right" aria-label="Close"></a>
+                        <div class="modal-title h5">
+                            <i class="material-icons">devices</i> Scan QR Code</div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content">
+                            <div id="currentqrcode" class="qrcode"></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" class="btn btn-primary">Got it</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include jqqrcode.html %}
+{{content}}

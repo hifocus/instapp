@@ -1,8 +1,5 @@
-@import url(https://cdnjs.loli.net/ajax/libs/spectre.css/0.5.1/spectre.min.css);
-@import url(https://fonts.loli.net/css?family=Titillium+Web:400,700);
-@import url(https://fonts.loli.net/icon?family=Material+Icons);
-/* @import url(https://cdnjs.loli.net/ajax/libs/normalize/8.0.0/normalize.min.css); */ 
-
+@import url('https://cdnjs.loli.net/ajax/libs/spectre.css/0.5.1/spectre.min.css');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons|Titillium+Web');
 
 html,
 body {
