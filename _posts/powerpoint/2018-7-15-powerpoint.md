@@ -1,5 +1,5 @@
 ---
-title: Microsft PowerPoint
+title: Microsoft PowerPoint
 ---
 <!-- Identify UA then redirect -->
 <script>
