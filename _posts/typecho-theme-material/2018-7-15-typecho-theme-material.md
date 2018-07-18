@@ -1,7 +1,7 @@
 ---
 displayTitle: Typecho Material Theme
 ---
-<!-- Identify UA then redirect -->
+
 <script>
         const repo = "https://api.github.com/repos/idawnlight/typecho-theme-material/releases/latest";
         $.getJSON(repo).done(function (data) {

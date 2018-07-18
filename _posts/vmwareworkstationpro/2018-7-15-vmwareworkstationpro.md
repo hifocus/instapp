@@ -1,7 +1,7 @@
 ---
 title: VMware Workstation Pro
 ---
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://www.vmware.com/go/getworkstation-win";

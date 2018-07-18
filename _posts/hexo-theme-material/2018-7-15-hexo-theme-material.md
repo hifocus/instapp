@@ -1,7 +1,7 @@
 ---
 displayTitle: Hexo Material Theme
 ---
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         const repo = "https://api.github.com/repos/viosey/hexo-theme-material/releases/latest";

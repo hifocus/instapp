@@ -3,7 +3,7 @@ displayTitle: Typecho Jianshu Theme
 ---
 
 
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location = "https://codeload.github.com/jiangmuzi/jianshu/legacy.zip/master";

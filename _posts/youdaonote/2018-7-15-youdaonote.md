@@ -1,7 +1,7 @@
 ---
 title: Youdao Note
 ---
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://download.ydstatic.com/notewebsite/downloads/YNote.exe";

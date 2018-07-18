@@ -1,7 +1,7 @@
 ---
 displayTitle: Souhu Video
 ---
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://p2p.hd.sohu.com/dcs.do";

@@ -1,7 +1,7 @@
 ---
 displayTitle: Tencent Video
 ---
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://node.video.qq.com/x/api/download_pc";

@@ -1,7 +1,7 @@
 ---
 displayTitle: Netease Cloud Music
 ---
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://music.163.com/api/pc/download/latest";

@@ -1,7 +1,7 @@
 ---
 title: Office Tool Plus
 ---
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://server.lancdn.com/landian/OfficeToolPlus/OTool.zip";

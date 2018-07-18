@@ -1,7 +1,7 @@
 ---
 title: Now Desktop
 ---
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "http://now-desktop-releases.zeit.sh/download/win32";

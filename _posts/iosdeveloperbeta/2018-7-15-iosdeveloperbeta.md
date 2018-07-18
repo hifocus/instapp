@@ -1,7 +1,7 @@
 ---
 title: iOS Developer Beta
 ---
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         alert("This app does not work on your device.");

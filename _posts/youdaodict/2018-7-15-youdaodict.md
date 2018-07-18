@@ -1,24 +1,24 @@
 ---
 title: Youdao Dict...
 ---
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
-        window.location.href = "http://c.youdao.com/dict/download.html";
+        window.location.href = "http://cidian.youdao.com/download/YoudaoDict.exe";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {
-        window.location.href = "http://c.youdao.com/dict/download.html";
+        window.location.href = "http://cidian.youdao.com/download/YoudaoDict.exe";
     }
     if (/(Macintosh)/i.test(navigator.userAgent)) {
-        window.location.href = "http://c.youdao.com/dict/download.html";
+        window.location.href = "http://codown.youdao.com/cidian/download/MacDict.dmg";
     }
     if (/(iPhone|iPod)/i.test(navigator.userAgent)) {
-        window.location.href = "http://c.youdao.com/dict/download.html";
+        window.location.href = "https://itunes.apple.com/cn/app/id353115739";
     }
     if (/(iPad)/i.test(navigator.userAgent)) {
-        window.location.href = "http://c.youdao.com/dict/download.html";
+        window.location.href = "https://itunes.apple.com/cn/app/id388358640";
     }
     if (/(Android)/i.test(navigator.userAgent)) {
-        window.location.href = "http://c.youdao.com/dict/download.html";
+        window.location.href = "http://openbox.mobilem.360.cn/index/d/sid/2927";
     };
 </script>

@@ -1,7 +1,7 @@
 ---
 title: Whatsapp
 ---
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         if (confirm("shadowsocks?")) (function () {

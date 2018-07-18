@@ -2,7 +2,7 @@
 title: Shadowsocksr
 ---
 
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://cdn.jsdelivr.net/gh/hxco-web/Sorry@3/distribute/ShadowsocksR-4.7.0-win.zip";

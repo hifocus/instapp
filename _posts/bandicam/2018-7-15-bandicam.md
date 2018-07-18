@@ -1,7 +1,7 @@
 ---
 titile: Bandicam
 ---
-<!-- Identify UA then redirect -->
+
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://dl.bandicam.cn/bdcamsetup.exe";
