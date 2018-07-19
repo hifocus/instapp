@@ -1,5 +1,5 @@
 ---
-title: Youdao Dict...
+title: Youdao Dict
 ---
 
 <script>
