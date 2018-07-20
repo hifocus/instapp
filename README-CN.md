@@ -101,7 +101,7 @@ HXCO Get 是一个可以帮助你用一条简单的链接下载应用和资源�
 
 ## 参与我们
 
-如果有任何想法或需求，可以在 [issue](https://github.com/hxco/Get/issues) 中告诉我们。
+如果有任何想法或需求，可以在 [Issue](https://github.com/hxco/Get/issues) 中告诉我们。
 
 
 ### 提交新的软件支持

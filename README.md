@@ -102,7 +102,7 @@ Therefore we are able to serve you with the latest version of the app. We can al
 
 ## Join Us
 
-If you have any ideas or requests，you may tell us in [issue](https://github.com/hxco/Get/issues) , at the same time we welcome all kinds of pull requests.
+If you have any ideas or requests，you may tell us in [Issue](https://github.com/hxco/Get/issues) , at the same time we welcome all kinds of pull requests.
 
 
 ### Submit New App Support
