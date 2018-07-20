@@ -4,9 +4,6 @@
 
 <h1 align="center"><a href="https://get.js.org" target="_blank">HXCO Get</a></h1>
 
-> 😎 万物皆可 HXCO Get！
-
-
 <p align="center">
 <a href="https://github.com/hxco/Get/releases"><img alt="Version" src="https://img.shields.io/github/release/hxco/get/all.svg?style=flat-square"/></a>
 <a href="https://tech.hxco.de" target="_blank"><img alt="Author" src="https://img.shields.io/badge/author-Huangxin-red.svg?style=flat-square"/></a>
@@ -19,6 +16,7 @@
 <a href="https://github.com/hxco/Get/blob/master/README.md"><img alt="Author" src="https://img.shields.io/badge/English Docs-Here-red.svg?style=flat-square"/></a>
 </p>
 
+> 😎 万物皆可 HXCO Get！
 
 ## 介绍
 
