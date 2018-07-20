@@ -1,5 +1,5 @@
 ---
-displayTitle: Typecho Material Theme
+displayTitle: Typecho Theme Material
 ---
 
 <script>

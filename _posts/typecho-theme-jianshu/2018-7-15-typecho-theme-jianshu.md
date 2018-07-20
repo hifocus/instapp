@@ -1,5 +1,5 @@
 ---
-displayTitle: Typecho Jianshu Theme
+displayTitle: Typecho Theme Jianshu
 ---
 
 <script>

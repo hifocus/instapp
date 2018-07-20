@@ -1,5 +1,5 @@
 ---
-displayTitle: Typecho Pinghsu Theme
+displayTitle: Typecho Theme Pinghsu 
 ---
 
 <script>
