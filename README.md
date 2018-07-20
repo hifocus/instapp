@@ -8,8 +8,8 @@
 
 
 <p align="center">
-<img alt="Version" src="https://img.shields.io/github/release/hxco/get/all.svg?style=flat-square"/>
-<a href="https://tech.hxco.de"><img alt="Author" src="https://img.shields.io/badge/author-Huangxin-red.svg?style=flat-square"/></a>
+<a href="https://github.com/hxco/Get/releases"><img alt="Version" src="https://img.shields.io/github/release/hxco/get/all.svg?style=flat-square"/></a>
+<a href="https://tech.hxco.de" target="_blank"><img alt="Author" src="https://img.shields.io/badge/author-Huangxin-red.svg?style=flat-square"/></a>
 <a href="https://github.com/hxco/Get/blob/master/LICENSE"><img alt="Contributors" src="https://img.shields.io/github/contributors/hxco/get.svg?style=flat-square"/></a>
 <a href="https://github.com/hxco/Get/stargazers"><img alt="Contributors" src="https://img.shields.io/github/stars/hxco/Get.svg?style=flat-square"/></a>
 <a href="https://github.com/hxco/Get/fork"><img alt="Contributors" src="https://img.shields.io/github/forks/hxco/get.svg?style=flat-square"/></a>
