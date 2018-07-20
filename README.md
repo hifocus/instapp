@@ -10,13 +10,13 @@
 <p align="center">
 <a href="https://github.com/hxco/Get/releases"><img alt="Version" src="https://img.shields.io/github/release/hxco/get/all.svg?style=flat-square"/></a>
 <a href="https://tech.hxco.de" target="_blank"><img alt="Author" src="https://img.shields.io/badge/author-Huangxin-red.svg?style=flat-square"/></a>
-<a href="https://github.com/hxco/Get/blob/master/LICENSE"><img alt="Contributors" src="https://img.shields.io/github/contributors/hxco/get.svg?style=flat-square"/></a>
+<a href="https://github.com/hxco/Get/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/hxco/get.svg?style=flat-square"/></a>
 <a href="https://github.com/hxco/Get/stargazers"><img alt="Contributors" src="https://img.shields.io/github/stars/hxco/Get.svg?style=flat-square"/></a>
-<a href="https://github.com/hxco/Get/fork"><img alt="Contributors" src="https://img.shields.io/github/forks/hxco/get.svg?style=flat-square"/></a>
+<a href="https://github.com/hxco/Get/fork"><img alt="Forks" src="https://img.shields.io/github/forks/hxco/get.svg?style=flat-square"/></a>
 <a href="https://jekyllrb.com/"><img alt="Jekyll" src="https://img.shields.io/badge/powered_by-Jekyll-green.svg?style=flat-square"/></a>
-<a href="https://travis-ci.org/viosey/hexo-theme-material"><img alt="License" src="https://img.shields.io/github/license/hxco/Get.svg?style=flat-square"/></a>
+<a href="https://github.com/hxco/Get/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/hxco/Get.svg?style=flat-square"/></a>
 <a href="https://get.js.org"><img alt="Status" src="https://img.shields.io/website-up-down-green-red/https/get.js.org.svg?style=flat-square&label=Service%20Status"/></a>
-<a href="https://github.com/hxco/Get/blob/master/README-CN.md"><img alt="Author" src="https://img.shields.io/badge/中文文档-这里-red.svg?style=flat-square"/></a>
+<a href="https://github.com/hxco/Get/blob/master/README.md"><img alt="Author" src="https://img.shields.io/badge/English Docs-Here-red.svg?style=flat-square"/></a>
 </p>
 
 
