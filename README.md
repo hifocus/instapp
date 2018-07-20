@@ -36,6 +36,8 @@ Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "Vi
 
 ## How to Use It
 
+### Normal Usage
+
 - Simply enter `https://get.js.org/{appname}` in your browser.
 
 - If you see a `404` error, that means the app you are downloading is not currently supported. Chech out [Join In Us](https://github.com/hxco/Get#join-us) page.
@@ -47,6 +49,18 @@ Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "Vi
   Make sure you can access foreign websites normally. This is a feature which can remind users in China Mainland to use proxy when downloading certain restricted apps. If you are not in China Mainland, just ignore this and select `OK`.
 
 - Current Support List: [https://get.js.org/apps](https://get.js.org/apps "View https://get.js.org/apps")
+
+### Alias System
+
+- For English users, our alias system is nice and simple: we don't have much alias. That's because I am a Chinese and not quite sure if `googlechrome` can be abbreviated as `gc`. But if you have any good ideas, please tell us at [Issue](https://github.com/hxco/Get/issue).
+
+- For Chinese users, we create alias for a app in three ways:
+
+  1. Chinese Pinyin in full, like `wangyiyunyinyue`
+  2. The first letter of the Pinyin, like `wyyyy`
+  3. English translation for the Chinese name, such as `cloudmusic` or `formatfactory`
+
+  These alias above can be available for any Chinese apps. If there are any mistakes, please also let us know at [Issue](https://github.com/hxco/Get/issue).
 
 ## How Does It Work
 
