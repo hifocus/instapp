@@ -13,7 +13,7 @@
 <a href="https://jekyllrb.com/"><img alt="Jekyll" src="https://img.shields.io/badge/powered_by-Jekyll-green.svg?style=flat-square"/></a>
 <a href="https://github.com/hxco/Get/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/hxco/Get.svg?style=flat-square"/></a>
 <a href="https://get.js.org"><img alt="Status" src="https://img.shields.io/website-up-down-green-red/https/get.js.org.svg?style=flat-square&label=Service%20Status"/></a>
-<a href="https://github.com/hxco/Get/blob/master/README.md"><img alt="Author" src="https://img.shields.io/badge/中文文档-这里-red.svg?style=flat-square"/></a>
+<a href="https://github.com/hxco/Get/blob/master/README-CN.md"><img alt="Author" src="https://img.shields.io/badge/中文文档-这里-red.svg?style=flat-square"/></a>
 </p>
 
 > 😎 Everything can be downloaded via HXCO Get!
