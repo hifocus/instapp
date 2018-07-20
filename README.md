@@ -11,9 +11,12 @@
 <img alt="Version" src="https://img.shields.io/github/release/hxco/get/all.svg?style=flat-square"/>
 <a href="https://tech.hxco.de"><img alt="Author" src="https://img.shields.io/badge/author-Huangxin-red.svg?style=flat-square"/></a>
 <a href="https://github.com/hxco/Get/blob/master/LICENSE"><img alt="Contributors" src="https://img.shields.io/github/contributors/hxco/get.svg?style=flat-square"/></a>
+<a href="https://github.com/hxco/Get/stargazers"><img alt="Contributors" src="https://img.shields.io/github/stars/hxco/Get.svg?style=flat-square"/></a>
+<a href="https://github.com/hxco/Get/fork"><img alt="Contributors" src="https://img.shields.io/github/forks/hxco/get.svg?style=flat-square"/></a>
 <a href="https://jekyllrb.com/"><img alt="Jekyll" src="https://img.shields.io/badge/powered_by-Jekyll-green.svg?style=flat-square"/></a>
 <a href="https://travis-ci.org/viosey/hexo-theme-material"><img alt="License" src="https://img.shields.io/github/license/hxco/Get.svg?style=flat-square"/></a>
 <a href="https://get.js.org"><img alt="Status" src="https://img.shields.io/website-up-down-green-red/https/get.js.org.svg?style=flat-square&label=Service%20Status"/></a>
+<a href="https://github.com/hxco/Get/blob/master/README-CN.md"><img alt="Author" src="https://img.shields.io/badge/中文文档-这里-red.svg?style=flat-square"/></a>
 </p>
 
 
@@ -82,9 +85,9 @@ If you have any ideas or requests，you may tell us in [issue](https://github.co
 
 1. HXCO Get is based on Jekyll. Make sure you have the appropriate development environment.
 
-1. Fork this repo. Clone to local. 
+1. [Fork this repo](https://github.com/hxco/Get/fork "Fork this repo"). Clone to local. 
 
-1.  Add our formatted scripts with the permanent download links in `_posts\{appname}\{year}-{month}-{date}-{appname}.md`
+1.  Add [our formatted scripts](https://github.com/hxco/Get#how-does-it-work "our formatted scripts") with the permanent download links in `_posts\{appname}\{year}-{month}-{date}-{appname}.md`
 
 1. Submit a pull request.
 
@@ -94,16 +97,18 @@ If you have any ideas or requests，you may tell us in [issue](https://github.co
 1.  [GitHub Issue](https://github.com/hxco/Get/issues)
 1.  [QQ Chat Group](https://tech.hxco.de/announcement/join-chat-group.html)
 
-## Deplyment
+## Deployment
 
 1. Make sure you have the Jekyll development environment.
 2. Clone to local.
 3. `cd path/to/repo/Get`
 4. `jekyll s`
 
-## Sponsored the development of HXCO Get
+## Sponsored the Development of HXCO Get
 
-Honestly, this project is not complicated and may not be worth your donation to us. But if you really like it, you are more than welcome to do it.
+Honestly, this project is not complicated and may not be worth your donation to us. In this case, [star](https://github.com/hxco/Get/stargazers "star") might be a good choice!
+
+But if you really want to donate us, you are more than welcome to do so.
 
 - [Paypal](https://paypal.me/hxco)
 - [HXCO Pay](https://c1.hx.taifua.com/hx/) (China Mainland Only)
