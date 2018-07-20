@@ -29,7 +29,7 @@ Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "Vi
 ## Features
 
 - Nice and short url, `https://get.js.org/{appname}`
-- Alais available, `https://get.js.org/googlechrome` is the same as `https://get.js.org/chrome`
+- Alais available, `https://get.js.org/tg` is the same as `https://get.js.org/telegram`
 - Full platform supported, included `Windows` `macOS` `Android` `iOS`
 - Always download the latest version of the program
 - Optimized code to load quickly across the globe
@@ -42,7 +42,7 @@ Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "Vi
 
 - If you see an alert like this:
 
-  [img]https://upload.cc/i1/2018/07/20/HUh1W8.png[/img]
+  ![](https://upload.cc/i1/2018/07/20/MoXczF.png)
 
   Make sure you can access foreign websites normally. This is a feature which can remind users in China Mainland to use proxy when downloading certain restricted apps. If you are not in China Mainland, just ignore this and select `OK`.
 
