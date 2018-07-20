@@ -29,7 +29,7 @@ Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "Vi
 ## Features
 
 - Nice and short url, `https://get.js.org/{appname}`
-- Alais available, `https://get.js.org/tg` is the same as `https://get.js.org/telegram`
+- Alias available, `https://get.js.org/tg` is the same as `https://get.js.org/telegram`
 - Full platform supported, included `Windows` `macOS` `Android` `iOS`
 - Always download the latest version of the program
 - Optimized code to load quickly across the globe
