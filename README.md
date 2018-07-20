@@ -28,11 +28,25 @@ Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "Vi
 
 ## Features
 
-- Nice and short url, `https://get.js.org/chrome`
+- Nice and short url, `https://get.js.org/{appname}`
 - Alais available, `https://get.js.org/googlechrome` is the same as `https://get.js.org/chrome`
 - Full platform supported, included `Windows` `macOS` `Android` `iOS`
 - Always download the latest version of the program
 - Optimized code to load quickly across the globe
+
+## How to Use It
+
+- Simply enter `https://get.js.org/{appname}` in your browser.
+
+- If you see a `404` error, that means the app you are downloading is not currently supported. Chech out [Join In Us](https://github.com/hxco/Get#join-us) page.
+
+- If you see an alert like this:
+
+  [img]https://upload.cc/i1/2018/07/20/HUh1W8.png[/img]
+
+  Make sure you can access foreign websites normally. This is a feature which can remind users in China Mainland to use proxy when downloading certain restricted apps. If you are not in China Mainland, just ignore this and select `OK`.
+
+- Current Support List: [https://get.js.org/apps](https://get.js.org/apps "View https://get.js.org/apps")
 
 ## How Does It Work
 
