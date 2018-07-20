@@ -117,7 +117,7 @@ But if you really want to donate us, you are more than welcome to do so.
 ## Author
 
 **HXCO Get** © [Huangxin](https://github.com/hifocus), Released under the [MIT](https://github.com/hxco/Get/blob/master/LICENSE) License.<br>
-Authored and maintained by Huangxin with help from contributors ([list](https://github.com/hxco/Get/contributors)).
+Authored and maintained by Huangxin with help from [contributors](https://github.com/hxco/Get/contributors).
 
 > Blog [@Tech HXCO](https://tech.hxco.de) · GitHub [@hifocus](https://github.com/hifocus)
 
