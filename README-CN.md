@@ -20,7 +20,7 @@
 
 ## 介绍
 
-HXCO Get 是一个可以帮助你用一条简单的链接下载应用和资源的在线服务。[查看博文](https://pages.qrcdn.com/translocation/hxco-get-posts)
+HXCO Get 是一个可以帮助你用一条简单的链接下载应用和资源的在线服务。[查看博文](https://tech.hxco.de/announcement/to-meet-you-in-one-year.html)
 
 目前的支持列表： [查看 https://get.js.org/apps](https://get.js.org/apps "查看 https://get.js.org/apps")
 

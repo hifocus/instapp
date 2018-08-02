@@ -20,7 +20,7 @@
 
 ## Introduction
 
-HXCO Get is an online service that helps you download applications and resources with a simple link. [Our Blog Posts](https://pages.qrcdn.com/translocation/hxco-get-posts)
+HXCO Get is an online service that helps you download applications and resources with a simple link. [Our Blog Posts](https://tech.hxco.de/announcement/to-meet-you-in-one-year.html)
 
 Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "View https://get.js.org/apps")
 
@@ -38,7 +38,7 @@ Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "Vi
 
 - Simply enter `https://get.js.org/{appname}` in your browser.
 
-- If you see a `404` error, that means the app you are downloading is not currently supported. Chech out [Join In Us](https://github.com/hxco/Get#join-us) page.
+- If you see a `404` error, that means the app you are downloading is not currently supported. Check out [Join In Us](https://github.com/hxco/Get#join-us) page.
 
 - If you see an alert like this:
 
