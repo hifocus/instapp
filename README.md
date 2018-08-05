@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/BKs1h6f.png" alt="HXCO Get">
 </p>
 
-<h1 align="center"><a href="https://get.js.org" target="_blank">HXCO Get</a></h1>
+<h1 align="center"></h1>
 
 <p align="center">
 <a href="https://github.com/hxco/Get/releases"><img alt="Version" src="https://img.shields.io/github/release/hxco/get/all.svg?style=flat-square"/></a>
