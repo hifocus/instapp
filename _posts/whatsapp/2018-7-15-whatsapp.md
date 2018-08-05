@@ -42,11 +42,7 @@ title: Whatsapp
     if (/(Android)/i.test(navigator.userAgent)) {
         if (confirm("shadowsocks?")) 
         (function () {
-            var i = document.createElement('iframe');
-            i.style.display = 'none';
-            i.onload = function () { i.parentNode.removeChild(i); };
-            i.src = 'https://apkpure.com/whatsapp-messenger/com.whatsapp/download';
-            document.body.appendChild(i);
+            window.location = 'https://apkpure.com/whatsapp-messenger/com.whatsapp/download';
         })();
         else window.location.href = "https://tech.hxco.de/";
     }

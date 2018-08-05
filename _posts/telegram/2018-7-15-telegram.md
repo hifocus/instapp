@@ -42,11 +42,7 @@ title: Telegram
     if (/(Android)/i.test(navigator.userAgent)) {
         if (confirm("shadowsocks?")) 
         (function () {
-            var i = document.createElement('iframe');
-            i.style.display = 'none';
-            i.onload = function () { i.parentNode.removeChild(i); };
-            i.src = 'https://apkpure.com/telegram/org.telegram.messenger/download';
-            document.body.appendChild(i);
+        window.location = "https://apkpure.com/telegram/org.telegram.messenger/download"
         })();
         else window.location.href = "https://tech.hxco.de/";
     }
