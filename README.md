@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/up45bpO.png" alt="HXCO Get" width="100">
+<img src="https://i.imgur.com/BKs1h6f.png" alt="HXCO Get" width="100">
 </p>
 
 <h1 align="center"><a href="https://get.js.org" target="_blank">HXCO Get</a></h1>
