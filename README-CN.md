@@ -138,6 +138,11 @@ HXCO Get 是一个可以帮助你用一条简单的链接下载应用和资源�
 - [HXCO Pay](https://c1.hx.taifua.com/hx/) (仅限中国大陆)
 - [Paypal](https://paypal.me/hxco)
 
+## 赞助者
+
+- [奥特饭](https://fanfan.im) - 运行于 Google Cloud 内容分发网络上的镜像
+
+
 ## 作者
 
 **HXCO Get** © [惶心](https://github.com/hifocus)， 在 [MIT](https://github.com/hxco/Get/blob/master/LICENSE) 许可下发布。<br>

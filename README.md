@@ -140,6 +140,10 @@ But if you really want to donate us, you are more than welcome to do so.
 - [HXCO Pay](https://c1.hx.taifua.com/hx/) (China Mainland Only)
 
 
+## Sponsor
+
+- [奥特饭](https://fanfan.im) - Mirror On Google Cloud CDN
+
 ## Author
 
 **HXCO Get** © [Huangxin](https://github.com/hifocus), Released under the [MIT](https://github.com/hxco/Get/blob/master/LICENSE) License.<br>
