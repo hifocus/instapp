@@ -1,5 +1,5 @@
 ---
-displayTitle: Netease BattleNet
+displayTitle: BattleNet
 ---
 
 <script>
