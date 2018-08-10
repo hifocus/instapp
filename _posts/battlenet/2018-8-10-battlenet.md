@@ -13,10 +13,10 @@ displayTitle: Netease BattleNet
         window.location.href = "https://www.battlenet.com.cn/download/getInstallerForGame?os=mac&version=LIVE&gameProgram=BATTLENET_APP";
     }
     if (/(iPhone|iPod)/i.test(navigator.userAgent)) {
-        window.location.href = "https://itunes.apple.com/cn/app/blizzard-battle-net/id1241040030";
+        window.location.href = "https://itunes.apple.com/app/blizzard-battle-net/id1241040030";
     }
     if (/(iPad)/i.test(navigator.userAgent)) {
-        window.location.href = "https://itunes.apple.com/cn/app/blizzard-battle-net/id1241040030";
+        window.location.href = "https://itunes.apple.com/app/blizzard-battle-net/id1241040030";
     }
     if (/(Android)/i.test(navigator.userAgent)) {
         window.location.href = "http://openbox.mobilem.360.cn/index/d/sid/3898244";
