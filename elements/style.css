@@ -28,6 +28,7 @@ main h3{ font-size: 1.5em }
 
 .safe{ color: green }
 .appname{ color: #807fe2 }
+.qrcode{ display: inline-block }
 
 .list-container{
     margin: 0 auto;
