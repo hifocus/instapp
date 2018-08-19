@@ -13,10 +13,10 @@ title: iOS Developer Beta
         alert("This app does not work on your device.");
     }
     if (/(iPhone|iPod)/i.test(navigator.userAgent)) {
-        window.location.href = "https://get.js.org/elements/iOSbeta.mobileconfig";
+        window.location.href = "https://get.js.org/assets/other/iOSbeta.mobileconfig";
         }
     if (/(iPad)/i.test(navigator.userAgent)) {
-        window.location.href = "https://get.js.org/elements/iOSbeta.mobileconfig";
+        window.location.href = "https://get.js.org/assets/other/iOSbeta.mobileconfig";
     }
     if (/(Android)/i.test(navigator.userAgent)) {
         alert("This app does not work on your device.");

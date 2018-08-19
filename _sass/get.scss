@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@import url("https://cdn.jsdelivr.net/gh/picturepan2/spectre@0.5.3/dist/spectre.min.css");
+@import url("https://fonts.googleapis.com/css?family=Material+Icons|Titillium+Web");
+
+@media screen and (max-width: 768px){
+  body{ font-size: 15px }
+}
+
+@import
+  "get/base",
+  "get/layout",
+  "get/footer"
+;
