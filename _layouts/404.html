@@ -4,8 +4,81 @@ layout: default
 
 <main>
     <h1 style="color: red">404 Not Found</h1>
-    <h2>Check out our <a href="https://get.js.org/apps" target="_blank">Support List</a> or <a href="https://github.com/hxco/Get#submit-new-app-support" target="_blank">Submit New App Support</a></h2>
+    <p style="display:none">Do you mean one of these software maybe?</p>
+    <ul id="list"></ul>
+    <p>Check out our
+        <a href="https://get.js.org/apps" target="_blank">Support List</a> or
+        <a href="https://github.com/hxco/Get#submit-new-app-support" target="_blank">Submit New App Support</a>
+    </p>
 </main>
 <footer>
-    <p>Made With <i class="heart">❤</i> By Huangxin.</p>
+    <p>Made With
+        <i class="heart">❤</i> By Huangxin.</p>
 </footer>
+<script>
+    function similarity(s1, s2) {
+        var longer = s1;
+        var shorter = s2;
+        if (s1.length < s2.length) {
+            longer = s2;
+            shorter = s1;
+        }
+        var longerLength = longer.length;
+        if (longerLength == 0) {
+            return 1.0;
+        }
+        return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);
+    }
+
+    function editDistance(s1, s2) {
+        s1 = s1.toLowerCase();
+        s2 = s2.toLowerCase();
+
+        var costs = new Array();
+        for (var i = 0; i <= s1.length; i++) {
+            var lastValue = i;
+            for (var j = 0; j <= s2.length; j++) {
+                if (i == 0)
+                    costs[j] = j;
+                else {
+                    if (j > 0) {
+                        var newValue = costs[j - 1];
+                        if (s1.charAt(i - 1) != s2.charAt(j - 1))
+                            newValue = Math.min(Math.min(newValue, lastValue),
+                                costs[j]) + 1;
+                        costs[j - 1] = lastValue;
+                        lastValue = newValue;
+                    }
+                }
+            }
+            if (i > 0)
+                costs[s2.length] = lastValue;
+        }
+        return costs[s2.length];
+    }
+
+    function checkSimilarity(){
+        var str1 = location.pathname.substring(1);
+        var strArray = new Array();
+        strArray = 
+        {% assign sortedPosts = site.posts | sort: 'title' %}
+        [
+            {% for post in sortedPosts %}
+                    {
+                        "id": "{% if post.displayTitle %}{{ post.displayTitle | downcase | replace: " ", "" }} {%else%}{{ post.title | downcase | replace: " ", "" }}{% endif %}",
+                        "name": "{% if post.displayTitle %}{{ post.displayTitle }} {%else%}{{ post.title }}{% endif %}",
+                        "url": "{{post.url}}"
+                    }{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+        ];
+        strArray.forEach(element => {
+            if(similarity(str1,element.id) > 0.35){
+                var itemEle = document.createElement('li');
+                itemEle.innerHTML = "<a href='"+ element.url +"'>"+ element.name +"</a>";
+                document.getElementById('list').appendChild(itemEle);
+                document.getElementsByTagName('p')[0].style.display= 'block';
+            }
+        });
+    };
+    checkSimilarity();
+</script>
