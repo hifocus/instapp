@@ -2,4 +2,5 @@
 analytics-code.html
 _site
 Gemfile.lock
-cache/
+.sass-cache/
+.DS_Store
