@@ -1,22 +1,22 @@
 --- 
 layout: default 
 ---
-<p class="normal footer">Made with
-    <i class="material-icons normal heart">favorite</i> by Huangxin</a>.</p>
-<div class="container">
-    <div class="content">
-        <div class="title">HXCO Get</div>
-        <div class="list-container" style="max-width: 800px;">
-        {% assign sortedPosts = site.posts | sort: 'title' %}
-        {% for post in sortedPosts %}
-            {% unless post.disableList or post.layout == 'goto' %}
-            <span class="chip">
-                <a target="_blank" href="{{post.url}}">
-                    {% if post.displayTitle %}{{ post.displayTitle }} {%else%}{{ post.title }}{% endif %}
-                </a>
-            </span>
-            {% endunless %}
-        {% endfor %}
-        </div>
+
+<main>
+    <h1>HXCO Get</h1>
+    <div class="list-container">
+    {% assign sortedPosts = site.posts | sort: 'title' %}
+    {% for post in sortedPosts %}
+        {% unless post.disableList or post.layout == 'goto' %}
+        <span class="chip">
+            <a target="_blank" href="{{post.url}}">
+                {% if post.displayTitle %}{{ post.displayTitle }} {%else%}{{ post.title }}{% endif %}
+            </a>
+        </span>
+        {% endunless %}
+    {% endfor %}
     </div>
-</div>
+</main>
+<footer>
+    <p>Made With <i class="heart">❤</i> By Huangxin.</p>
+</footer>
