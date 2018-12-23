@@ -1,3 +1,7 @@
+---
+displayTitle: Git For Windows
+---
+
 <script>
     const repo = "https://api.github.com/repos/git-for-windows/git/releases/latest";
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
