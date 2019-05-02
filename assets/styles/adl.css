@@ -28,10 +28,10 @@ https://github.com/hifocus/adl
     line-height: 1.2;
   }
   .discover {
-    left: 75%;
+    right: -10%;
   }
   .topbtn {
-    font-size: 20px;
+    font-size: 0.8rem;
   }
   .nomobile {
     display: none;
