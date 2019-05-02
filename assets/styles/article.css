@@ -1,0 +1,94 @@
+/* 
+adl.css - Author @hifocus 
+https://github.com/hifocus/adl
+*/
+
+@media screen and (min-width: 769px) {
+  /* Desktop end style */
+  .title {
+    font-size: 34px;
+  }
+  .box {
+    line-height: 0.8;
+  }
+  .discover {
+    left: 92.5%;
+    top: 7.5%;
+    position: fixed;
+  }
+  .topbtn {
+    font-size: 16px;
+  }
+  .headline {
+    max-width: 833px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Mobile end style */
+  .title {
+    font-size: 29px;
+  }
+  .box {
+    line-height: 1.2;
+  }
+  .discover {
+    right: -15%;
+    top: 4.75%;
+    position: absolute;
+  }
+  .topbtn {
+    font-size: 0.8rem;
+  }
+  .nomobile {
+    display: none;
+  }
+  .headline {
+    max-width: 85%;
+  }
+}
+
+body {
+  /* Global css properties */
+  /* white-space: nowrap; */
+}
+
+.lf {
+  text-align: left;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.box,
+.notice {
+  /* Set position at once */
+  position: relative;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.headline {
+  top: 15%;
+  /* left: 50%; */
+  margin: 20px auto;
+}
+
+.content {
+  line-height: 0.6;
+}
+
+.discover {
+  z-index: 999;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.notice {
+  top: 95%;
+  left: 50%;
+  text-align: center;
+}
+
+.gr {
+  color: green;
+}
