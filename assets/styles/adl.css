@@ -11,6 +11,12 @@ https://github.com/hifocus/adl
   .box {
     line-height: 0.8;
   }
+  .discover {
+    left: 92.5%;
+  }
+  .topbtn {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -20,6 +26,15 @@ https://github.com/hifocus/adl
   }
   .box {
     line-height: 1.2;
+  }
+  .discover {
+    left: 75%;
+  }
+  .topbtn {
+    font-size: 20px;
+  }
+  .nomobile {
+    display: none;
   }
 }
 
@@ -36,22 +51,24 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.box {
+.box, .discover, .notice {
+  /* Set position at once */
   position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.box {
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+}
+
+.discover {
+  top: 5%;
 }
 
 .notice {
-  position: absolute;
   top: 95%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
-.subtitle {
-  font-size: 18px;
 }
 
 .gr {
