@@ -38,6 +38,13 @@ https://github.com/hifocus/adl
   }
 }
 
+html {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  }
+
 body {
   /* Global css properties */
   white-space: nowrap;
@@ -48,7 +55,7 @@ body {
 }
 
 .lato {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
 }
 
 .box, .discover, .notice {

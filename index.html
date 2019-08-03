@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 
 <head>
-    <title>ADL - Download apps in seconds</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+    <title>ADL - Download apps in seconds</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-icons.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="assets/styles/adl.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="discover lato">
-        <div class="dropdown dropdown-right topbtn"><a class="btn btn-link dropdown-toggle topbtn" tabindex="0"><i class="icon icon-apps nomobile"></i> Discover <i class="icon icon-caret"></i></a>
+        <div class="dropdown dropdown-right topbtn"><a class="btn btn-link dropdown-toggle topbtn" tabindex="0"><i class="icon icon-apps nomobile"></i> <span id="discover">Discover</span> <i class="icon icon-caret"></i></a>
             <ul class="menu">
-                <li class="menu-item"><a href="https://docs.appdl.dev">Docs</a></li>
-                <li class="menu-item"><a href="https://github.com/hifocus/adl">ADL on GitHub</a></li>
-                <li class="menu-item"><a href="https://www.justhx.com">Huangxin's Blog</a></li>
+                <li class="menu-item"><a href="https://docs.appdl.dev" id="docs">Browse docs</a></li>
+                <li class="menu-item"><a href="https://github.com/hifocus/adl" id="github">ADL on GitHub</a></li>
+                <li class="menu-item"><a href="https://www.justhx.com" id="blog">Huangxin's Blog</a></li>
             </ul>
         </div>
     </div>
     <div class="box md lato">
-        <p class="title tooltip" data-tooltip="Download apps in seconds ⚡">ADL - appdl<span class="gr">.dev</span></p>
-        <a href="https://docs.appdl.dev" target="_blank"><button class="btn mr-1 tooltip" data-tooltip="Browse Docs">How to Use</button></a>
-        <a href="https://docs.appdl.dev/page/" target="_blank"><button class="btn btn-primary tooltip" data-tooltip="48 Apps Supported">Supported Apps</button></a>
+        <p class="title tooltip" id="title" data-tooltip="Download apps in seconds ⚡">ADL - appdl<span class="gr">.dev</span></p>
+        <a href="https://docs.appdl.dev" target="_blank"><button class="btn mr-1 tooltip" id="howto" data-tooltip="Browse Docs">How to Use</button></a>
+        <a href="https://docs.appdl.dev/page/" target="_blank"><button class="btn btn-primary tooltip" id="supported" data-tooltip="48 Apps Supported">Supported Apps</button></a>
     </div>
 </body>
 
 <footer>
     <div class="notice md lato">
-        <p>[Insider Version]<br>
-            Open Source Project on <a class="tooltip" data-tooltip="Don't forget to ⭐ our project!" href="https://github.com/hifocus/adl">GitHub</a></p>
+        <p id="footer"></p>
     </div>
 </footer>
+
+<script src="assets/scripts/adl.js"></script>
