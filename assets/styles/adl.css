@@ -55,11 +55,6 @@ body {
   text-align: center;
 }
 
-.lato {
-  /* From Spectre.css */
-  font-family: "Lato", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang TC", "Hiragino Sans CNS", "Microsoft JhengHei", "Helvetica Neue", sans-serif;
-}
-
 .box, .discover, .notice {
   /* Set position at once */
   position: absolute;
@@ -82,6 +77,10 @@ body {
 
 .gr {
   color: green;
+}
+
+.grey {
+  color: grey;
 }
 
 .nftitle {
