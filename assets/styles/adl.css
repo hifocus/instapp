@@ -38,13 +38,14 @@ https://github.com/hifocus/adl
   }
 }
 
-html {
+body {
   /* Prevent page to be scrollable */
   width: 100%;
   height: 100%;
   position: absolute;
   overflow: hidden;
-  }
+  overflow-y: hidden;
+}
 
 body {
   /* Global css properties */
@@ -81,6 +82,10 @@ body {
 
 .grey {
   color: grey;
+}
+
+.smaller-fonts {
+  font-size: 0.725rem;
 }
 
 .nftitle {
