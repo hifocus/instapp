@@ -16,10 +16,8 @@ if (/zh-CN|zh-cn|zh-Hans|zh-hans|cn/i.test(userLang)) {
 else if (/zh-TW|zh-HK|zh-tw|zh-hk|zh-Hant|zh-hant|tw|hk/i.test(userLang)) {
     // detect browser langauge, traditional chinese only
     document.write("<style>.lato { font-family: 'Lato', --apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang TC', 'Hiragino Sans CNS', 'Microsoft JhengHei', 'Helvetica Neue', sans-serif; }</style>");
-
     document.getElementById("github").innerHTML = "GitHub 專頁";
     document.getElementById("blog").innerHTML = "惶心的部落格";
-
 }
 else {
     // detect browser langauge, anything other than chinese will display english
