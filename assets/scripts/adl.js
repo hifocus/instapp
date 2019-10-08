@@ -3,6 +3,10 @@ var version_type = "Stable";
 var app_supported = "999"; // define number of apps supported
 
 var userLang = navigator.language || navigator.userLanguage;
+if (/zh*/i.test(userLang)) {
+// adjustment for non-standard userlangauges
+var userLang = "zh-CN";
+}
 if (/zh|cn|tw|hk|TW|HK/i.test(userLang)) {
     // detect browser langauge, both simplified chinese and traditional chinese
     // place chinese translations in common here
