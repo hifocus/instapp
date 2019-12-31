@@ -9,26 +9,26 @@ layout: default
         {% else %}
             {{ page.title }}...
         {% endif %}</h1>
-    <p>Your download should begin automatically. If it doesn't, <a href="http://outdatedbrowser.com/zh-cn" target="_blank">upgrade your browser.</a></p>
-    <p><a href="#qrco" class="btn btn-primary">Get Mobile Apps</a></p>
+    <p>Your download should begin automatically.</a></p>
+    <p><a href="#qrco" class="btn btn-primary">📱 Get the mobile app</a></p>
     <div class="modal" id="qrco">
         <a href="#" class="modal-overlay" aria-label="Close"></a>
         <div class="modal-container" role="document">
             <div class="modal-header">
                 <a href="#" class="btn btn-clear float-right" aria-label="Close"></a>
-                <div class="modal-title h5"><i class="material-icons">devices</i> Scan QR Code</div>
+                <div class="modal-title h5">Scan the qrcode with your 📱</div>
             </div>
             <div class="modal-body">
                 <div id="currentqrcode" class="qrcode"></div>
             </div>
-            <div class="modal-footer">
-                <a href="#" class="btn btn-primary">Got it</a>
-            </div>
+            <!-- <div class="modal-footer">
+                <a href="#" class="btn btn-primary">×</a>
+            </div> -->
         </div>
     </div>
 </main>
 <footer>
-    <p>Thanks For Using <a href="https://github.com/hxco/Get" target="_blank">HXCO Get</a>. <a href="https://tech.hxco.de/announcement/to-meet-you-in-one-year.html" target="_blank">Made With <i class="heart">❤</i> By Huangxin</a>.</p>
+    <p>Made by <a href="https://www.justhx.com" target="_blanks">Huangxin</a> and <a href="https://github.com/hifocus/get/graphs/contributors?type=a">[contributors]</a>.</p>
 </footer>
 
 {% include jqqrcode.html %}

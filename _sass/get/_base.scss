@@ -5,8 +5,8 @@ body{
     width: 100%;
     color: #555;
     display: table;
-    font-weight: lighter;
-    font: 18px/1.5 Merriweather, sans-serif;
+    // font-weight: lighter;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
 }
 
 main{
@@ -14,12 +14,15 @@ main{
     display: table-cell;
     vertical-align: middle;
     h1{
-        font-size: 4em
+        font-size: 2.6em;
+        margin: 20px;
+        color:#0070c9;
     }
     h2{
-        font-size: 2em; margin-bottom: 2rem
+        font-size: 1.5em;
+        // margin-bottom: 2rem
     }
     h3{
-        font-size: 1.5em
+        font-size: 1em
     }
 }
