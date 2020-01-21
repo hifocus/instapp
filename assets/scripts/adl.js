@@ -1,5 +1,5 @@
 var version = "1.0";  // define adl version
-var version_type = "Stable";
+var version_type = "Alpha";
 var app_supported = "999"; // define number of apps supported
 
 var userLang = navigator.language || navigator.userLanguage;
