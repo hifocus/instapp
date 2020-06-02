@@ -18,6 +18,6 @@ displayTitle: Honkai Impact 3
         window.location.href = "https://itunes.apple.com/cn/app/beng-huai3/id1143402987";
     }
     if (/(Android)/i.test(navigator.userAgent)) {
-        window.location.href = "http://openbox.mobilem.360.cn/index/d/sid/3487340"
+        window.location.href = "https://api-takumi.mihoyo.com/event/download_porter/link/bh3_cn/bh3/android_official"
     }
 </script>
