@@ -3,10 +3,10 @@ titile: Bandizip
 ---
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
-        window.location.href = "https://www.bandisoft.com/bandizip/dl.php";
+        window.location.href = "https://en.bandisoft.com/bandizip/dl.php?old-ca";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {
-        window.location.href = "https://www.bandisoft.com/bandizip/dl.php";
+        window.location.href = "https://en.bandisoft.com/bandizip/dl.php?old-ca";
     }
     if (/(Macintosh)/i.test(navigator.userAgent)) {
         window.location.href = "https://itunes.apple.com/app/id1265704574";
