@@ -1,26 +1,26 @@
 <p align="center">
-<img src="https://i.imgur.com/BKs1h6f.png" alt="HXCO Get">
+<img src="https://i.imgur.com/BKs1h6f.png" alt="Get Apps">
 </p>
 
 <h1 align="center"></h1>
 
 <p align="center">
-<a href="https://github.com/hxco/Get/releases"><img alt="Version" src="https://img.shields.io/github/release/hxco/get/all.svg?style=flat-square"/></a>
+<a href="https://github.com/hifocus/get/releases"><img alt="Version" src="https://img.shields.io/github/release/hifocus/get/all.svg?style=flat-square"/></a>
 <a href="https://tech.hxco.de" target="_blank"><img alt="Author" src="https://img.shields.io/badge/author-Huangxin-red.svg?style=flat-square"/></a>
-<a href="https://github.com/hxco/Get/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/hxco/get.svg?style=flat-square"/></a>
-<a href="https://github.com/hxco/Get/stargazers"><img alt="Contributors" src="https://img.shields.io/github/stars/hxco/Get.svg?style=flat-square"/></a>
-<a href="https://github.com/hxco/Get/fork"><img alt="Forks" src="https://img.shields.io/github/forks/hxco/get.svg?style=flat-square"/></a>
+<a href="https://github.com/hifocus/get/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/hifocus/get.svg?style=flat-square"/></a>
+<a href="https://github.com/hifocus/get/stargazers"><img alt="Contributors" src="https://img.shields.io/github/stars/hifocus/get.svg?style=flat-square"/></a>
+<a href="https://github.com/hifocus/get/fork"><img alt="Forks" src="https://img.shields.io/github/forks/hifocus/get.svg?style=flat-square"/></a>
 <a href="https://jekyllrb.com/"><img alt="Jekyll" src="https://img.shields.io/badge/powered_by-Jekyll-green.svg?style=flat-square"/></a>
-<a href="https://github.com/hxco/Get/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/hxco/Get.svg?style=flat-square"/></a>
+<a href="https://github.com/hifocus/get/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/hifocus/get.svg?style=flat-square"/></a>
 <a href="https://get.js.org"><img alt="Status" src="https://img.shields.io/website-up-down-green-red/https/get.js.org.svg?style=flat-square&label=Service%20Status"/></a>
-<a href="https://github.com/hxco/Get/blob/master/README-CN.md"><img alt="Author" src="https://img.shields.io/badge/中文文档-这里-red.svg?style=flat-square"/></a>
+<a href="https://github.com/hifocus/get/blob/master/README-CN.md"><img alt="Author" src="https://img.shields.io/badge/中文文档-这里-red.svg?style=flat-square"/></a>
 </p>
 
-> 😎 Everything can be downloaded via HXCO Get!
+> 😎 Everything can be downloaded via Get Apps!
 
 ## Introduction
 
-HXCO Get is an online service that helps you download applications and resources with a simple link. [Our Blog Posts](https://tech.hxco.de/announcement/to-meet-you-in-one-year.html)
+Get Apps is an online service that helps you download applications and resources with a simple link. [Our Blog Posts](https://tech.hxco.de/announcement/to-meet-you-in-one-year.html)
 
 Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "View https://get.js.org/apps")
 
@@ -38,7 +38,7 @@ Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "Vi
 
 - Simply enter `https://get.js.org/{appname}` in your browser.
 
-- If you see a `404` error, that means the app you are downloading is not currently supported. Check out [Join In Us](https://github.com/hxco/Get#join-us) page.
+- If you see a `404` error, that means the app you are downloading is not currently supported. Check out [Join In Us](https://github.com/hifocus/get#join-us) page.
 
 - If you see an alert like this:
 
@@ -50,7 +50,7 @@ Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "Vi
 
 ### Alias System
 
-- For English users, our alias system is nice and simple: we don't have much alias. That's because I am a Chinese and not quite sure if `googlechrome` can be abbreviated as `gc`. But if you have any good ideas, please tell us at [Issue](https://github.com/hxco/Get/issue).
+- For English users, our alias system is nice and simple: we don't have much alias. That's because I am a Chinese and not quite sure if `googlechrome` can be abbreviated as `gc`. But if you have any good ideas, please tell us at [Issue](https://github.com/hifocus/get/issue).
 
 - For Chinese users, we create alias for a app in three ways:
 
@@ -58,13 +58,13 @@ Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "Vi
   2. The first letter of the Pinyin, like `wyyyy`
   3. English translation for the Chinese name, such as `cloudmusic` or `formatfactory`
 
-  These alias above can be available for any Chinese apps. If there are any mistakes, please also let us know at [Issue](https://github.com/hxco/Get/issue).
+  These alias above can be available for any Chinese apps. If there are any mistakes, please also let us know at [Issue](https://github.com/hifocus/get/issue).
 
 ## How Does It Work
 
 Currently we support more than 50 apps, you may find them in [ https://get.js.org/apps](https://get.js.org/apps "View https://get.js.org/apps").
 
-First HXCO Get will identify your OS:
+First Get Apps will identify your OS:
 
 ```
 <script>
@@ -102,25 +102,25 @@ Therefore we are able to serve you with the latest version of the app. We can al
 
 ## Join Us
 
-If you have any ideas or requests，you may tell us in [Issue](https://github.com/hxco/Get/issues) , at the same time we welcome all kinds of pull requests.
+If you have any ideas or requests，you may tell us in [Issue](https://github.com/hifocus/get/issues) , at the same time we welcome all kinds of pull requests.
 
 
 ### Submit New App Support
 
 1.  Check out [ https://get.js.org/apps](https://get.js.org/apps "https://get.js.org/apps") to make sure it is not currently supported
 
-1. HXCO Get is based on Jekyll. Make sure you have the appropriate development environment.
+1. Get Apps is based on Jekyll. Make sure you have the appropriate development environment.
 
-1. [Fork this repo](https://github.com/hxco/Get/fork "Fork this repo"). Clone to local. 
+1. [Fork this repo](https://github.com/hifocus/get/fork "Fork this repo"). Clone to local. 
 
-1.  Add [our formatted scripts](https://github.com/hxco/Get#how-does-it-work "our formatted scripts") with the permanent download links in `_posts\{appname}\{year}-{month}-{date}-{appname}.md`
+1.  Add [our formatted scripts](https://github.com/hifocus/get#how-does-it-work "our formatted scripts") with the permanent download links in `_posts\{appname}\{year}-{month}-{date}-{appname}.md`
 
 1. Submit a pull request.
 
 
 ### Join Our Discussion
 
-1.  [GitHub Issue](https://github.com/hxco/Get/issues)
+1.  [GitHub Issue](https://github.com/hifocus/get/issues)
 1.  [QQ Chat Group](https://tech.hxco.de/announcement/join-chat-group.html)
 
 ## Deployment
@@ -130,9 +130,9 @@ If you have any ideas or requests，you may tell us in [Issue](https://github.co
 3. `cd path/to/repo/Get`
 4. `jekyll s`
 
-## Sponsored the Development of HXCO Get
+## Sponsored the Development of Get Apps
 
-Honestly, this project is not complicated and may not be worth your donation to us. In this case, [star](https://github.com/hxco/Get/stargazers "star") might be a good choice!
+Honestly, this project is not complicated and may not be worth your donation to us. In this case, [star](https://github.com/hifocus/get/stargazers "star") might be a good choice!
 
 But if you really want to donate us, you are more than welcome to do so.
 
@@ -146,8 +146,8 @@ But if you really want to donate us, you are more than welcome to do so.
 
 ## Author
 
-**HXCO Get** © [Huangxin](https://github.com/hifocus), Released under the [MIT](https://github.com/hxco/Get/blob/master/LICENSE) License.<br>
-Authored and maintained by Huangxin with help from [contributors](https://github.com/hxco/Get/contributors).
+**Get Apps** © [Huangxin](https://github.com/hifocus), Released under the [MIT](https://github.com/hifocus/get/blob/master/LICENSE) License.<br>
+Authored and maintained by Huangxin with help from [contributors](https://github.com/hifocus/get/contributors).
 
 > Blog [@Tech HXCO](https://tech.hxco.de) · GitHub [@hifocus](https://github.com/hifocus)
 
