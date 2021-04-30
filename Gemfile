@@ -1,6 +1,4 @@
-title: Get Apps
-
-permalink: /:title
+permalink:/:title
 
 sass:
   style: compressed
