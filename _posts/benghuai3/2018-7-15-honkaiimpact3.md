@@ -3,10 +3,10 @@ displayTitle: Honkai Impact 3
 ---
 <script>
     if (/(x64|WOW64)/i.test(navigator.userAgent)) {
-        alert("This app does not work on your device.");
+        window.location.href = "https://api-takumi.mihoyo.com/event/download_porter/link/bh3_cn/bh3/pc_official";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {
-        alert("This app does not work on your device.");
+        window.location.href = "https://api-takumi.mihoyo.com/event/download_porter/link/bh3_cn/bh3/pc_official";
     }
     if (/(Macintosh)/i.test(navigator.userAgent)) {
         alert("This app does not work on your device.");
