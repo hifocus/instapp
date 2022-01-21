@@ -2,7 +2,7 @@
 displayTitle: Format Factory
 ---
 <script>
-    if (/(WOW64)/i.test(navigator.userAgent)) {
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "http://down.pcgeshi.com/FormatFactory_setup.exe";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

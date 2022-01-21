@@ -2,7 +2,7 @@
 title: Maruko Toolbox
 ---
 <script>
-    if (/(WOW64)/i.test(navigator.userAgent)) {
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://dl.hdslb.com/video-press/xiaowantoolsrev194.zip";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

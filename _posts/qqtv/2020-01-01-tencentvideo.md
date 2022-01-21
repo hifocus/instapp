@@ -14,7 +14,7 @@ match_mac = async () => {
     const text = await res.text();
 window.location.href = (text.match(/https(.*)tencentvideo(.*).dmg/gi))
 };
-    if (/(WOW64)/i.test(navigator.userAgent)) {
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         match_pc();
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

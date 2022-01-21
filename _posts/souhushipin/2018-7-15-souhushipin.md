@@ -3,7 +3,7 @@ displayTitle: Souhu Video
 ---
 
 <script>
-    if (/(WOW64)/i.test(navigator.userAgent)) {
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://p2p.hd.sohu.com/dcs.do";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

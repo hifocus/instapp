@@ -3,7 +3,7 @@ title: Youdao Dict
 ---
 
 <script>
-    if (/(WOW64)/i.test(navigator.userAgent)) {
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "http://cidian.youdao.com/download/YoudaoDict.exe";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

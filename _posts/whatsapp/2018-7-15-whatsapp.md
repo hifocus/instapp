@@ -3,7 +3,7 @@ title: Whatsapp
 ---
 
 <script>
-    if (/(WOW64)/i.test(navigator.userAgent)) {
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         if (confirm("shadowsocks?")) (function () {
             var i = document.createElement('iframe');
             i.style.display = 'none';

@@ -3,7 +3,7 @@ title: Youdao Note
 ---
 
 <script>
-    if (/(WOW64)/i.test(navigator.userAgent)) {
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://download.ydstatic.com/notewebsite/downloads/YNote.exe";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

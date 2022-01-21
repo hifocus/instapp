@@ -3,7 +3,7 @@ titile: Bandicam
 ---
 
 <script>
-    if (/(WOW64)/i.test(navigator.userAgent)) {
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://dl.bandicam.cn/bdcamsetup.exe";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

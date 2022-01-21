@@ -3,7 +3,7 @@ title: Now Desktop
 ---
 
 <script>
-    if (/(WOW64)/i.test(navigator.userAgent)) {
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "http://now-desktop-releases.zeit.sh/download/win32";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

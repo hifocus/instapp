@@ -2,7 +2,7 @@
 title: Potplayer
 ---
 <script>
-    if (/(WOW64)/i.test(navigator.userAgent)) {
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = ("https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe");
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

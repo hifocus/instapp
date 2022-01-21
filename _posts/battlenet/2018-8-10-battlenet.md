@@ -3,7 +3,7 @@ displayTitle: BattleNet
 ---
 
 <script>
-    if (/(WOW64)/i.test(navigator.userAgent)) {
+    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://www.battlenet.com.cn/download/getInstallerForGame?os=win&version=LIVE&gameProgram=BATTLENET_APP";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {
