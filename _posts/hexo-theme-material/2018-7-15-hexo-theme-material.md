@@ -3,7 +3,7 @@ displayTitle: Hexo Material Theme
 ---
 
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         const repo = "https://api.github.com/repos/viosey/hexo-theme-material/releases/latest";
         $.getJSON(repo).done(function (data) {
             window.location = (data.zipball_url);

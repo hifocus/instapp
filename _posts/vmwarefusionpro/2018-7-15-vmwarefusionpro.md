@@ -2,7 +2,7 @@
 title: VMware Fusion Pro
 ---
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://get.js.org/vmware";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

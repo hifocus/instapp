@@ -3,7 +3,7 @@ title: Shadowsocksr
 ---
 
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://app.qrcdn.com/assets/ShadowsocksR-4.7.0-win.zip";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

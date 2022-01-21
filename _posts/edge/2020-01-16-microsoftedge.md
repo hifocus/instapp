@@ -2,7 +2,7 @@
 title: Microsoft Edge
 ---
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/c39f1d27-cd11-495a-b638-eac3775b469d/MicrosoftEdgeEnterpriseX64.msi";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

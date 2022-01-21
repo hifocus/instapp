@@ -2,7 +2,7 @@
 title: Snipaste
 ---
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://dl.snipaste.com/win-x64";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

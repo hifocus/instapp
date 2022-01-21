@@ -3,7 +3,7 @@ displayTitle: UU Game Booster
 ---
 
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://gad.netease.com/gad/access?project_id=4321515&s=egvG/ndn8wP5KezxXWBMiPfI2Dg=&code_type=1";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

@@ -2,7 +2,7 @@
 title: Evernote
 ---
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://www.yinxiang.com/download/get.php?file=Win";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

@@ -7,7 +7,7 @@ displayTitle: Tencent Online Games Accelerator
 jiasuadtag.forEach((a,b)=>{
 if (a.adtag == "main") {
     console.log(a.url);
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
     window.location.href = a.url;
 
 }

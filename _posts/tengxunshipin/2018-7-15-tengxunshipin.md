@@ -3,7 +3,7 @@ displayTitle: Tencent Video
 ---
 
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://node.video.qq.com/x/api/download_pc";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

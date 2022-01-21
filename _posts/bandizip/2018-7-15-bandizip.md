@@ -2,7 +2,7 @@
 titile: Bandizip
 ---
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://app.qrcdn.com/assets/Bandizip-6.25.EXE";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

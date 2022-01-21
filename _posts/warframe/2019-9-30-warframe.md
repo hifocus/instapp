@@ -2,7 +2,7 @@
 displayTitle: Warframe
 ---
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "http://content.warframe.com/dl/Warframe.msi";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

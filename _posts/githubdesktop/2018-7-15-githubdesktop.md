@@ -2,7 +2,7 @@
 displayTitle: GitHub Desktop
 ---
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://central.github.com/deployments/desktop/desktop/latest/win32";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

@@ -2,7 +2,7 @@
 displayTitle: Epic Games Launcher
 ---
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

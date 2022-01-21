@@ -2,7 +2,7 @@
 displayTitle: Rockstar Games Launcher
 ---
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://gamedownloads.rockstargames.com/public/installer/Rockstar-Games-Launcher.exe";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

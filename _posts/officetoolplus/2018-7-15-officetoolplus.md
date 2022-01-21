@@ -3,7 +3,7 @@ title: Office Tool Plus
 ---
 
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://server.lancdn.com/landian/OfficeToolPlus/OTool.zip";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {

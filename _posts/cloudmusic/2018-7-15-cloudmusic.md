@@ -3,7 +3,7 @@ displayTitle: Netease Cloud Music
 ---
 
 <script>
-    if (/(x64|WOW64)/i.test(navigator.userAgent)) {
+    if (/(WOW64)/i.test(navigator.userAgent)) {
         window.location.href = "https://music.163.com/api/pc/download/latest";
     }
     if (/(x86_64)/i.test(navigator.userAgent)) {
