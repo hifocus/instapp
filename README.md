@@ -42,7 +42,7 @@ Current Support List: [View https://get.js.org/apps](https://get.js.org/apps "Vi
 
 - If you see an alert like this:
 
-  ![](https://upload.cc/i1/2018/07/20/MoXczF.png)
+  ![](https://vip2.loli.io/2022/10/11/naOIQUwPB7qHG16.png)
 
   Make sure you can access foreign websites normally. This is a feature which can remind users in China Mainland to use proxy when downloading certain restricted apps. If you are not in China Mainland, just ignore this and select `OK`.
 
