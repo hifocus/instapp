@@ -19,6 +19,6 @@ displayTitle: BattleNet
         window.location.href = "https://itunes.apple.com/app/blizzard-battle-net/id1241040030";
     }
     if (/(Android)/i.test(navigator.userAgent)) {
-        window.location.href = "http://openbox.mobilem.360.cn/index/d/sid/3898244";
-}
+        disableAndroid();
+    }
 </script>

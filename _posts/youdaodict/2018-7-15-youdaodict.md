@@ -19,6 +19,6 @@ title: Youdao Dict
         window.location.href = "https://itunes.apple.com/cn/app/id388358640";
     }
     if (/(Android)/i.test(navigator.userAgent)) {
-        window.location.href = "http://openbox.mobilem.360.cn/index/d/sid/2927";
-    };
+        disableAndroid();   
+    }
 </script>

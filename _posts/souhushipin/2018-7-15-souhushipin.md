@@ -19,6 +19,6 @@ displayTitle: Souhu Video
         window.location.href = "https://itunes.apple.com/app/id414430589";
     }
     if (/(Android)/i.test(navigator.userAgent)) {
-        window.location.href = "http://openbox.mobilem.360.cn/index/d/sid/1586";
+        disableAndroid();   
     }
 </script>
