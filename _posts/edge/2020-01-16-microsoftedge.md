@@ -18,6 +18,6 @@ title: Microsoft Edge
         window.location.href = "https://apps.apple.com/app/id1288723196";
     }
     if (/(Android)/i.test(navigator.userAgent)) {
-        window.location.href = "http://openbox.mobilem.360.cn/index/d/sid/3902499";
-    };
+        disableAndroid();   
+    }
 </script>

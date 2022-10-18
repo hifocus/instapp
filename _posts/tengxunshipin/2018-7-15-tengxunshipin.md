@@ -19,6 +19,6 @@ displayTitle: Tencent Video
         window.location.href = "https://itunes.apple.com/cn/app/id407925512";
     }
     if (/(Android)/i.test(navigator.userAgent)) {
-        window.location.href = "http://openbox.mobilem.360.cn/index/d/sid/2087";
-}
+        disableAndroid();   
+    }
 </script>

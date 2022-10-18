@@ -19,6 +19,6 @@ title: Ubisoft Connect
         window.location.href = "https://itunes.apple.com/app/ubisoft-club/id405228226"
     }
     if (/(Android)/i.test(navigator.userAgent)) {
-        window.location.href = "http://openbox.mobilem.360.cn/index/d/sid/1601528"
+        disableAndroid();   
     }
 </script>

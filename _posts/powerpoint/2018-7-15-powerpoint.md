@@ -19,6 +19,6 @@ title: Microsoft PowerPoint
     window.location.href = "https://itunes.apple.com/app/microsoft-powerpoint/id586449534";
     }
     if (/(Android)/i.test(navigator.userAgent)) {
-        window.location.href = "http://openbox.mobilem.360.cn/index/d/sid/2484891";
-    };
+        disableAndroid();   
+    }
 </script>
