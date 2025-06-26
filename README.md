@@ -139,11 +139,6 @@ But if you really want to donate us, you are more than welcome to do so.
 - [Paypal](https://paypal.me/hxco)
 - [HXCO Pay](https://c1.hx.taifua.com/hx/) (China Mainland Only)
 
-
-## Sponsor
-
-- [奥特饭](https://fanfan.im) - Mirror On Google Cloud CDN
-
 ## Author
 
 **Get Apps** © [Huangxin](https://github.com/hifocus), Released under the [MIT](https://github.com/hifocus/get/blob/master/LICENSE) License.<br>
@@ -154,3 +149,5 @@ Authored and maintained by Huangxin with help from [contributors](https://github
 <hr>
 
 > Notice: This `README.md` draws on [RSSHub](https://github.com/DIYgod/RSSHub).
+
+[![Use EdgeOne Pages to deploy](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=YOUR_REPO_URL)
